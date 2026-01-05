@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keanggotaan | FolkTale Library</title>
+  <link rel="stylesheet" href="member.css">
+</head>
+<body>
+  <header>
+    <h1>FolkTale Library</h1>
+    <p>“Every story whispers through the woods.”</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Collection.html">Collection</a></li>
+      <li><a href="member.html" class="active">Member</a></li>
+      <li><a href="contact.html">Contact</a></li> 
+    </ul>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h2>Keanggotaan Folktale Library</h2>
+      <p>
+        Bergabunglah menjadi bagian dari keluarga <strong>Folktale Library</strong> — 
+        tempat di mana setiap pembaca menemukan cerita yang berbicara ke dalam hati.
+        Dengan menjadi anggota, kamu dapat menikmati koleksi eksklusif, 
+        ruang baca pribadi, serta berbagai acara menarik bertema sastra dan folklore.
+      </p>
+    </section>
+
+    <section class="benefits">
+      <h2>Manfaat Keanggotaan</h2>
+      <ul>
+        <li>Akses penuh ke seluruh koleksi buku fisik dan digital.</li>
+        <li>Undangan khusus untuk event dan workshop sastra.</li>
+        <li>Diskon khusus untuk pembelian buku dan merchandise.</li>
+        <li>Ruang baca privat dengan suasana tenang dan alami.</li>
+        <li>Kartu anggota eksklusif dengan desain khas Folktale Library.</li>
+      </ul>
+    </section>
+
+    <section class="types">
+      <h2>Jenis Keanggotaan</h2>
+      <div class="member-grid">
+        <article>
+          <h3>Basic Member</h3>
+          <p>Keanggotaan seumur hidup dengan akses dasar ke ruang baca umum dan peminjaman buku reguler.</p>
+          <p><strong>Biaya:</strong> Free</p>
+        </article>
+        <article>
+          <h3>Premium Member</h3>
+          <p>Keanggotaan dengan masa berlaku 5 tahun. Akses ke koleksi digital, ruang baca eksklusif, dan undangan event khusus.</p>
+          <p><strong>Biaya:</strong> Rp20.000 (Sekali Bayar)</p>
+        </article>
+        <article>
+          <h3>Lifetime Member</h3>
+          <p>Keanggotaan dengan masa berlaku selama 5 tahun dengan semua fasilitas dan akses penuh.</p>
+          <p><strong>Biaya:</strong> Rp50.000 (sekali bayar)</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="form-section">
+      <h2>Formulir Pendaftaran Anggota</h2>
+      <form>
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu" required>
+
+        <label for="email">Alamat Email:</label>
+        <input type="email" id="email" name="email" placeholder="emailkamu@gmail.com" required>
+
+        <label for="tipe">Jenis Keanggotaan:</label>
+        <select id="tipe" name="tipe" required>
+          <option value="">-- Pilih Jenis --</option>
+          <option value="basic">Basic Member</option>
+          <option value="premium">Premium Member</option>
+          <option value="lifetime">Lifetime Member</option>
+        </select>
+
+        <label for="pesan">Pesan Tambahan:</label>
+        <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan catatan atau permintaan khusus..." maxlength="30"></textarea>
+
+        <button type="submit" class="btn"> Daftar Sekarang</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Folktale Library | "Where stories bloom in silence."</p>
+  </footer>
+</body>
+</html>
